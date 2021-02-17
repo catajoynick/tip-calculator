@@ -1,0 +1,33 @@
+body {
+    font-family: Roboto;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8E0E00, #1F1C18);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+
+    margin-top: 0;
+    padding: .5em;
+    background-color: brown;
+}
+
+.container {
+
+    background-color: white;
+    border-radius: .5em;
+    margin: 10% auto;
+    width: 360px;
+    height: 525px;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#tip:before {
+
+    content: "TIP AMOUNT ";
+}
